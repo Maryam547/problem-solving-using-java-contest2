@@ -8,7 +8,7 @@ public class DrawingX {
             StringBuilder row = new StringBuilder();
             for(int j=0;j<n;j++){
                 if(i==center&&j==center){
-                    row.append("x");
+                    row.append("X");
                 }else if(i==j){
                     row.append("\\");
                 }else if(i+j==n-1){
